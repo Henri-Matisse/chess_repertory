@@ -1,4 +1,4 @@
-header {
+/* header {
   h1 {
     text-align: center;
     margin: 2em;
@@ -84,7 +84,7 @@ footer {
   }
 }
 
-/* Animations  */
+/* Animations  
 
 @keyframes slidein {
     0% {
@@ -93,4 +93,62 @@ footer {
     100% {
       transform: rotate(360deg);
     }
+  } */
+
+body {
+  margin: 1em;
+
+  header {
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      background-color: #81f7f3;
+
+      /* @media screen and (max-width: 375px) {
+        color : #f0f;
+        font-size :3em;
+      
+      } */
+    }
   }
+
+  main {
+    .intro {
+      .ouverture-noirs {
+        background: linear-gradient(45deg, #ffffff 0%, #000000 70%, #ffffff 100%);
+        
+        h3 {
+          text-align: center;
+          text-decoration: underline;
+          color: #ffffff;
+        }
+        
+        .conseil-noirs {
+          margin: 0.5em;
+          padding: 0.5em;
+          background-color: #8ca76f;
+  
+          @media screen and (min-width: 525px) {
+            font-size: 1.2em;
+          }
+  
+          @media screen and (min-width: 768px) {
+            font-size: 1.5em;
+          }
+        }
+  
+        .explications {
+          background-color: #81f7f3;
+          font-size: 1.5em;
+          margin: 1em;
+          text-align: center;
+
+          b{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  
+}
