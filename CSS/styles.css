@@ -3,7 +3,7 @@ header {
     text-align: center;
     margin: 2em;
     font-size: 4em;
-    background-color: #d65555;
+    background-color: #81f7f3;
   }
 }
 
@@ -14,7 +14,7 @@ main {
       font-size: 3em;
     }
     .ouverture-noirs {
-      background: linear-gradient(50deg, #ff0000 0%, #f0f 50%, #000000 100%);
+      background: linear-gradient(45deg,#ffffff 0%, #000000 70%, #ffffff 100%);
       h3 {
         margin-left: 2em;
         font-size: 2em;
@@ -22,10 +22,10 @@ main {
       }
       .conseil-noirs {
         font-size: 1.5em;
-        background-color: #ff0000;
+        background-color: #ffffff;
       }
       .explications {
-        background-color: #00aeff;
+        background-color: #81f7f3;
         font-size: 1.5em;
         margin: 1em;
         text-align: center;
@@ -42,7 +42,7 @@ main {
       }
     }
     .ouverture-blancs {
-      background: linear-gradient(50deg, #ff0000 0%, #f0f 50%, #000000 100%);
+      background: linear-gradient(45deg,#ffffff 0%, #000000 70%, #ffffff 100%);
       h3 {
         margin-left: 2em;
         font-size: 2em;
@@ -50,7 +50,7 @@ main {
       }
       .conseil-blancs {
         font-size: 1.5em;
-        background-color: #ff0000;
+        background-color: #ffffff;
       }
     }
   }
@@ -61,7 +61,7 @@ main {
         font-size: 3em;
       }
     .explications{
-        background-color: #00aeff;
+        background-color: #81f7f3;
         font-size: 1.5em;
         margin: 1em;
         text-align: center;

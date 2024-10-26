@@ -1,0 +1,11 @@
+main {
+  section:first-child {
+    background-color: #f0f;
+  }
+  section:nth-child(2) {
+    background-color: #ce0b0b;
+  }
+  section:last-child {
+    background-color: #2a45a6;
+  }
+}
