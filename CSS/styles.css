@@ -103,52 +103,86 @@ body {
       text-align: center;
       font-size: 2em;
       background-color: #81f7f3;
+    }
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -40px;
 
-      /* @media screen and (max-width: 375px) {
-        color : #f0f;
-        font-size :3em;
-      
-      } */
+        li {
+          background-color: #f0f;
+          /* &::marker {
+            color: rgb(0, 255, 0);
+          } */
+        }
+      }
     }
   }
+
+  /* @media screen and (max-width: 375px) {
+    color : #f0f;
+    font-size :3em;
+  
+  }*/
 
   main {
     .intro {
       .ouverture-noirs {
-        background: linear-gradient(45deg, #ffffff 0%, #000000 70%, #ffffff 100%);
-        
+        background: linear-gradient(
+          45deg,
+          #ffffff 0%,
+          #000000 70%,
+          #ffffff 100%
+        );
+
         h3 {
           text-align: center;
           text-decoration: underline;
           color: #ffffff;
         }
-        
+
         .conseil-noirs {
           margin: 0.5em;
           padding: 0.5em;
           background-color: #8ca76f;
-  
+
           @media screen and (min-width: 525px) {
             font-size: 1.2em;
           }
-  
+
           @media screen and (min-width: 768px) {
             font-size: 1.5em;
           }
         }
-  
+
         .explications {
           background-color: #81f7f3;
           font-size: 1.5em;
           margin: 1em;
           text-align: center;
 
-          b{
+          b {
             display: block;
           }
         }
       }
     }
+    .ponziani {
+      .aside-example {
+        color: #0011ff;
+      }
+
+      aside {
+        width: 40%;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        float: inline-end;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        color: #29627e;
+      }
+    }
   }
-  
 }
